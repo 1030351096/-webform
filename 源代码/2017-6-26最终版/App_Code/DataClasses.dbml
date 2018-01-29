@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="bds291173651_db" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=bds291173651.my3w.com;Initial Catalog=bds291173651_db;User ID=bds291173651" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="bds291173651_dbConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.users" Member="users">
+    <Type Name="users">
+      <Column Name="ids" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="usersname" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="balance" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="nikename" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="sex" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="birthday" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Payment" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="state" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="address" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Detailed" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Carousel" Member="Carousel">
+    <Type Name="Carousel">
+      <Column Name="ids" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="imgurl" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Commodity" Member="Commodity">
+    <Type Name="Commodity">
+      <Column Name="ids" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="comname" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="KEY_word" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="price" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="reference_price" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Specifications" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="type" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Stock" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Sales_volume" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Shelf_life" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="component" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Comimg" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="place" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Remarks" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Commoimg" Member="Commoimg">
+    <Type Name="Commoimg">
+      <Column Name="commocode" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Commoimg1" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Commoimg2" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Commoimg3" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Commoimg4" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Commo_details" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.orders" Member="orders">
+    <Type Name="orders">
+      <Column Name="ids" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="orderscode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="o_userscode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="o_Commocode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="o_Price" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="o_Number" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="o_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="o_address" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Recharge" Member="Recharge">
+    <Type Name="Recharge">
+      <Column Name="ids" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ueerscode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="r_money" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="r_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="r_number" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Shopping_Cart" Member="Shopping_Cart">
+    <Type Name="Shopping_Cart">
+      <Column Name="ids" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="userscode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Commocode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Unit_Price" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Number" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

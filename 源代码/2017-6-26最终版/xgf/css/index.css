@@ -1,0 +1,929 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+a {
+    color:#000000;
+}
+
+
+/*大图轮播*/
+.blue-slide {
+	background: #4390EE;
+}
+.red-slide {
+	background: #CA4040;
+}
+.orange-slide {
+	background: #FF8604;
+}
+.swiper-slide {
+	line-height: 300px;
+	color: #fff;
+	font-size: 36px;
+	text-align: center;
+}
+
+
+
+
+/*悬浮*/
+.xuanfukuang {
+    width:100%;
+    height:80px;
+    position: fixed;
+    background-color:#fff;
+    display: none;
+    z-index: 99;
+    right:50px;
+    left:0px;
+}
+.xuanfu {
+    width: 50%;
+    height: 80px;
+    margin-left: 25%;
+}
+/*悬浮logo*/
+.xuanfu_logo {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+
+    .xuanfu_logo img {
+        width:50%;
+        margin-top:-27px;
+    }
+
+
+/*悬浮搜索*/
+.xuanfu_sousuo {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+#xuanfu_sousuokuang {
+    width: 70%;
+    height:40px;
+    margin-top:20px;
+    float: left;
+}
+
+#xuanfu_sousuoanniu {
+    width:20%;
+    height:40px;
+    margin-top:20px;
+    background-color:#000000;
+    float:left;
+}
+
+
+
+
+/*登陆*/
+.denglu {
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+}
+#tuichudenglu {
+    font-size:12px;
+    height: 25px;
+    line-height:14px;
+    float:right;
+    margin-left:20px;
+}
+/*登陆里面每一个流式布局*/
+.denglua {
+    margin-right: 9px;
+    float: left;
+    cursor: pointer;
+}
+/*小手机图标*/
+.xiaoshouji {
+    margin-top: 8px;
+    width: 9px;
+    height: 12px;
+}
+
+
+/*个人中心等*/
+.gerenzhongxin {
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+}
+/*个人中心里面每一个流式布局*/
+.gerenzhongxina {
+    margin-right: 10px;
+    float: left;
+    cursor: pointer;
+}
+/*小签到图标*/
+.xiaoqiandao {
+    width: 13px;
+    height: 13px;
+    margin-top: 8px;
+}
+
+.gerenzhongxin1 {
+    position: relative;
+}
+/*个人中心下拉列表*/
+.gerenzhongxin1xiala {
+    position: absolute;
+    width: 90px;
+    height: 200px;
+    line-height: 27px;
+    top: 30px;
+    left: 150px;
+    color: #000000;
+    background-color: #e0e0e0;
+    z-index: 5;
+    border: 1px solid #c2c2c2;
+    display: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*空行*/
+.sousuodeng {
+    margin-top: 30px;
+}
+
+
+
+
+/*logo图标*/
+.logo {
+    width: 70%;
+    cursor: pointer;
+    margin-top:-30px;
+}
+
+
+/*搜索*/
+.sousuo {
+    height: 50px;
+}
+/*搜索框*/
+#sousuokuang {
+    width: 80%;
+    height: 80%;
+    float: left;
+}
+/*搜索按钮*/
+#sousuoanniu {
+    width: 20%;
+    height: 80%;
+    float: left;
+    background-color: #000000;
+}
+
+
+/*购物车*/
+.gouwuche {
+    height: 50px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/*购物车小图标*/
+#gouwuchexiaotubiao {
+    width: 50px;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+/*购物车文字*/
+#gouwuchewenzi {
+    width: 70px;
+    height: 100%;
+    line-height: 50px;
+    font-size: 18px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*锚点定位*/
+.maodiandingwei {
+    position: fixed;
+    width: 90px;
+    height: 240px;
+    right: 100px;
+    bottom: 150px;
+    border: 1px solid #e0e0e0;
+    display: none;
+    font-size: 5px;
+    text-align: center;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+
+
+/*我的个人中心*/
+.topwode {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.topwode_1 {
+    width: 100%;
+    height: 50%;
+}
+
+.topwode_2 {
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+
+
+
+
+
+/*我的购物车*/
+.topgouwuche {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.topgouwuche_1 {
+    width: 100%;
+    height: 50%;
+}
+
+.topgouwuche_2 {
+    width: 100%;
+    height: 50%;
+}
+
+/*app*/
+.topapp {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.topapp_1 {
+    width: 100%;
+    height: 50%;
+}
+
+.topapp_2 {
+    width: 100%;
+    height: 50%;
+}
+
+.topapperweima {
+    position: absolute;
+    left: -110px;
+    top: -25px;
+    display: none;
+}
+
+
+
+/*回到顶部*/
+.top {
+    width: 100%;
+    height: 60px;
+    background-color: #808080;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.top_1 {
+    width: 0px;
+    height: 0px;
+    margin-top: 20px;
+    margin-left: 17px;
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.top_2 {
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*排序*/
+.paixu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.paixuge {
+    width: 100%;
+    height: 100%;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #e0e0e0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*商品展示区域*/
+.zhanshiquyu {
+    border: 1px solid #e0e0e0;
+}
+/*商品展示每一个框*/
+.zhanshikuang {
+    height: 450px;
+    padding: 12px;
+    margin-top: 12px;
+}
+/*商品展示*/
+.zhanshi {
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+    .zhanshi:hover {
+        border: 2px solid #f00;
+    }
+
+
+
+
+
+
+
+
+/*商品展示图*/
+.zhanshitu {
+    width: 100%;
+    height: 70%;
+}
+/*商品展示图尺寸*/
+.zhanshiimg {
+    width: 100%;
+    height: 100%;
+}
+/*商品展示价格*/
+.zhanshiprice {
+    width: 50%;
+    height: 6%;
+    line-height: 30px;
+    font-size: 30px;
+    color: #f00;
+    float: left;
+}
+/*商品展示老价格*/
+.zhanshioldprice {
+    width: 50%;
+    height: 6%;
+    line-height: 25px;
+    color: #808080;
+    text-decoration: line-through;
+    float: right;
+    text-align: right;
+}
+/*商品展示名字*/
+.zhanshiname {
+    width: 100%;
+    height: 6%;
+    margin-top: 10%;
+    line-height: 30px;
+    font-weight: normal;
+    overflow: hidden;
+}
+/*商品展示关键词*/
+.zhanshiguanjianci {
+    width: 12%;
+    height: 4%;
+    margin-top: 20px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #808080;
+}
+/*商品展示销量*/
+.zhanshixiaoliang {
+    width: 50%;
+    height: 6%;
+    float: left;
+    line-height: 40px;
+}
+/*商品展示产地*/
+.zhanshichandi {
+    width: 50%;
+    height: 6%;
+    float: left;
+    line-height: 40px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*分页*/
+.fenye {
+    height: 50px;
+    margin-right: 0px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #e0e0e0;
+}
+
+/*首页*/
+.shouye {
+    width: 35px;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+}
+/*上一页*/
+.shangyiye {
+    width: 35px;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+}
+/*当前第几页*/
+.now {
+}
+/*下拉选择第几页*/
+.xuanze {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+/*共几页*/
+.sum {
+}
+/*下一页*/
+.xiayiye {
+    width: 35px;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+}
+/*尾页*/
+.weiye {
+    width: 35px;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*tuijian商品展示区域*/
+.zhanshiquyu {
+    border: 1px solid #e0e0e0;
+}
+/*商品展示每一个框*/
+.tuijiankuang {
+    height: 450px;
+    padding: 12px;
+    margin-top: 12px;
+}
+/*商品展示*/
+.tuijianzhanshi {
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+    .tuijianzhanshi:hover {
+        border: 2px solid #f00;
+    }
+
+
+
+
+
+
+
+
+/*商品展示图*/
+.tuijianzhanshitu {
+    width: 100%;
+    height: 63%;
+}
+/*商品展示图尺寸*/
+.tuijianzhanshiimg {
+    width: 100%;
+    height: 100%;
+}
+/*商品展示价格*/
+.tuijianzhanshiprice {
+    width: 50%;
+    height: 7%;
+    line-height: 30px;
+    font-size: 30px;
+    color: #f00;
+    float: left;
+}
+/*商品展示老价格*/
+.tuijianzhanshioldprice {
+    width: 50%;
+    height: 7%;
+    line-height: 25px;
+    color: #808080;
+    text-decoration: line-through;
+    float: right;
+    text-align: right;
+}
+/*商品展示名字*/
+.tuijianzhanshiname {
+    width: 100%;
+    height: 7%;
+    margin-top: 10%;
+    line-height: 30px;
+    font-weight: normal;
+    overflow: hidden;
+}
+/*商品展示关键词*/
+.tuijianzhanshiguanjianci {
+    width: 12%;
+    height: 4%;
+    margin-top: 20px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #808080;
+}
+/*商品展示销量*/
+.tuijianzhanshixiaoliang {
+    width: 50%;
+    height: 10%;
+    float: left;
+    line-height: 40px;
+}
+/*商品展示产地*/
+.tuijianzhanshichandi {
+    width: 50%;
+    height: 10%;
+    float: left;
+    line-height: 40px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部1*/
+.dibu_1 {
+    height: 150px;
+}
+/*每一个底部图标框*/
+.dibu_1_v {
+    width: 70%;
+    height: 40%;
+    margin-top: 20%;
+    margin-left: 25%;
+}
+/*图片*/
+.dibu_1_1_v {
+    width: 22%;
+    height: 80%;
+    float: left;
+}
+/*文字*/
+.dibu_1_2_v {
+    width: 73%;
+    height: 80%;
+    margin-left: 5%;
+    float: left;
+}
+/*文字第一部分*/
+.dibu_1_2_1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+/*文字第二部分*/
+.dibu_1_2_2 {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部2*/
+.dibu_2 {
+    height: 150px;
+    margin-top: 30px;
+    border-right: 1px solid #e0e0e0;
+}
+/*底部logo*/
+.dibu_2_1_1 {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+.dibulogo {
+    width:80%;
+    margin-top:-70px;
+}
+/*关于我们*/
+.dibu_2_1_2 {
+    width: 100%;
+    height: 70%;
+    text-align: center;
+}
+/*前面空格及文字*/
+.dibu_2_1_2_0 {
+    width: 34%;
+    line-height: 32px;
+    float: left;
+}
+/*三张分享小图标*/
+.dibu_2_1_2_v {
+    position: relative;
+    width: 11.5%;
+    height: 30%;
+    margin-left: 5%;
+    float: left;
+    cursor: pointer;
+}
+/*鼠标移入的二维码第一个*/
+.dibu_2_1_2_v11 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 40px;
+    left: -30px;
+    z-index: 2;
+    display: none;
+}
+/*鼠标移入的二维码第二个*/
+.dibu_2_1_2_v21 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 40px;
+    left: -30px;
+    z-index: 2;
+    display: none;
+}
+/*鼠标移入的二维码第三个*/
+.dibu_2_1_2_v31 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 40px;
+    left: -30px;
+    z-index: 2;
+    display: none;
+}
+
+
+
+
+/*好多字2*/
+.dibu_2_2_1 {
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+}
+/*好多字2-1*/
+.dibu_2_2_2 {
+    cursor: pointer;
+}
+/*二维码*/
+.dibu_2_7_1 {
+    width: 80%;
+    height: 70%;
+}
+/*扫码下载*/
+.dibu_2_7_2 {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+/*底部3*/
+.dibu_3 {
+    height: 150px;
+    background-color: #333;
+    margin-top: 80px;
+    font-size: 10px;
+    color: #c2c2c2;
+    text-align: center;
+    line-height: 30px;
+}

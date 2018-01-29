@@ -1,0 +1,124 @@
+﻿/*个人信息第一行*/
+.anquanshezhi {
+    width:100%;
+    height:50px;
+}
+.anquanshezhi1 {
+    font-size:21px;
+    width:100px;
+    height:100%;
+    float:left;
+}
+.anquanshezhi2 {
+    float:left;
+    line-height:36px;
+}
+
+
+
+
+
+
+
+.anquanshezhi_ziliao {
+    width:100%;
+    height:120px;
+    margin-top:20px;
+    padding:10px;
+}
+/*个人信息资料头像*/
+.anquanshezhi_ziliao_touxiang {
+    width:100px;
+    height:100px;
+    float:left;
+}
+    .anquanshezhi_ziliao_touxiang img {
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    }
+
+/*个人信息资料信息*/
+.anquanshezhi_ziliao_xinxi {
+    float:left;
+    width:300px;
+    height:100px;
+    margin-left:30px;
+}
+
+.anquanshezhi_ziliao_xinxi_1 {
+    width:100%;
+    height:33%;
+    line-height:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*安全设置div*/
+.anquanshezhi_div {
+    width:90%;
+    height:400px;
+    margin-left:5%;
+}
+/*安全设置div每一行*/
+.anquanshezhi_div_meiyihang {
+    width:100%;
+    height:60px;
+    margin-bottom:20px;
+}
+/*安全设置div每一行图标*/
+.anquanshezhi_div_meiyihang_1 {
+    width:40px;
+    height:40px;
+    margin-top:10px;
+    float:left;
+}
+/*安全设置div每一行文字*/
+.anquanshezhi_div_meiyihang_2 {
+    width:550px;
+    height:50px;
+    margin-top:5px;
+    margin-left:20px;
+    float:left;
+}
+.anquanshezhi_div_meiyihang_21 {
+    width:550px;
+    height:30px;
+    line-height:30px;
+    font-size:18px;
+    font-weight:600;
+}
+.anquanshezhi_div_meiyihang_22 {
+    width:550px;
+    height:20px;
+}
+/*安全设置div每一行按钮*/
+.anquanshezhi_div_meiyihang_3 {
+    width:100px;
+    height:34px;
+    margin-top:15px;
+    margin-left:20px;
+    background-color:#0094ff;
+    color:#ffffff;
+    float:left;
+}
+
+
+
+
+
+
+

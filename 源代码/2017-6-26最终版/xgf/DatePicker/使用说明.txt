@@ -1,0 +1,7 @@
+添加js引用：
+<script src="DatePicker/WdatePicker.js"></script>
+
+事件中调用此方法：（只读，只能取当前日期及之前日期）
+ $("#txt_Time").focus(function () {
+        WdatePicker({ readOnly: true, maxDate: '%y-%M-%d' });
+    });
